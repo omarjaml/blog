@@ -1,3 +1,40 @@
 theme: jekyll-theme-midnight
-title: Welcome to Omar’s blog homepage!
-description: Feel free to bookmark this to keep an eye.
+# default github settings
+lsi: false
+safe: true
+source: .
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+
+# Site settings
+repository: omarjaml/blog
+title: Omar Jaml
+description: >
+    Interesting Blog posts about everything.
+
+baseurl: ''
+url: "https://omarjaml.com"
+github_username: omarjaml
+linkedin_username: omarjaml
+full_name: Omar Jaml
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:categories/:year/:month/:day/:title/
+encoding: utf-8
+timezone: Asia/Jerusalem
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - .ruby-version
+  - Makefile
+  - [vendor]
