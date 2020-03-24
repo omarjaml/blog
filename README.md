@@ -1,4 +1,4 @@
-## Here i share whatever i think intersting.
+## Here i share whatever i think interesting.
 
 Currently it is empty :) 
 ### stay tuned!
